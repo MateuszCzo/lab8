@@ -1,12 +1,12 @@
 import './App.css';
-import QuizComponent from "./components/QuizComponent";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Posts from "./utils/posts";
 
 function App() {
   return (
-      <QuizComponent/>
+      <main className="container">
+        <Posts/>
+      </main>
   );
 }
 
 export default App;
-
